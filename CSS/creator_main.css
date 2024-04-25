@@ -1,0 +1,269 @@
+/*creator_main start*/
+.creator_main {
+  z-index: -1;
+  background: url(../images/Shadow.png) no-repeat 50%;
+  background-size: contain;
+  position: absolute;
+  width: 99%;
+  height: 100%;
+  background-size: contain;
+  align-items: center;
+  margin-top: 100px;
+  font-size: 100px;
+}
+/*creator_main end*/
+
+.Main_topic_sides {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  font-size: 40px;
+  margin-top: 130px;
+  position: relative;
+  align-items: center;
+}
+
+.Small_topic_sides {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.418);
+  font-weight: 30;
+  font-size: 15px;
+  margin-top: 20px;
+  position: relative;
+  align-items: center;
+  margin-left: 370px;
+  margin-right: 370px;
+}
+
+.button_holder {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: -25px;
+}
+
+/*creator_main button main start*/
+.middle_button_Creator_main {
+  border: none;
+  background-color: #0173f9;
+  border-radius: 25px;
+  margin: 0;
+  height: 50px;
+  width: 150px;
+  font-size: 15px;
+  font-weight: 700;
+  box-shadow: none;
+  transition: box-shadow 2s ease;
+}
+
+.middle_button_Creator_main:hover {
+  box-shadow: 0px 4px #39bffe;
+  transition: 0.3s;
+  color: white;
+  opacity: 100%;
+}
+
+/*creator_main button main stop*/
+
+.description {
+  padding-top: 11px;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.sub_topic_sides {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  font-size: 30px;
+  margin-top: 100px;
+  position: relative;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.grit_card_section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 80px;
+  margin-right: 80px;
+  background-image: url(../images/Shadow.png);
+  background-size: 1000px;
+}
+
+.card_section {
+  display: inline;
+}
+
+.card_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  min-height: 280px;
+  padding: 35px;
+  background: linear-gradient(
+    326.21deg,
+    rgba(83, 83, 83, 0.03) 4.14%,
+    hsla(0, 0%, 74%, 0.08)
+  );
+  border: 1px solid hsla(0, 0%, 100%, 0.03);
+  border-radius: 7px;
+  text-align: left;
+  transition: border 0.3s ease-in-out;
+  cursor: default;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: -0.36px;
+  color: white;
+  height: auto;
+}
+
+.card_section:hover {
+  border: 1px solid hsla(240, 2%, 25%, 0.836);
+  cursor: pointer;
+}
+
+.card_section p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: auto;
+}
+
+.card_section b {
+  font-size: 25px;
+}
+
+#box21 {
+  text-align: center;
+  align-items: center;
+}
+
+@media(max-width:991px){
+  html{
+      font-size:65%;
+  }
+  .navigation_section {
+    margin-left: -10px !important;
+  }
+  .Small_topic_sides {
+    font-size: 13px;
+    margin-left: 3px;
+    margin-right: 3px;
+
+  }
+  .sub_topic_sides {
+    font-size: 20px;
+
+  }
+  .middle_button_Creator_main {
+    height: 50px;
+    width: 130px;
+    font-size: 13px;
+  }
+  .grit_card_section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: none;
+  }
+  .card_section {
+    height: 300px;
+    width: 80vw;
+    font-size: 14px;
+  }
+  .card_section .p1{
+    width: 75vw;
+
+  }
+
+  
+}
+@media(max-width:768px){
+  html{
+    font-size:63%;
+}
+.navigation_section {
+  margin-left: -10px !important;
+}
+.Small_topic_sides {
+  font-size: 13px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.sub_topic_sides {
+  font-size: 22px;
+
+}
+.middle_button_Creator_main {
+  height: 45px;
+  width: 120px;
+  font-size: 14px;
+}
+.grit_card_section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-image: none;
+}
+.card_section {
+  height: 330px;
+  width: 70vw;
+  font-size: 15px;
+}
+.card_section .p1{
+  width: 70vw;
+
+}
+  
+}
+@media(max-width:450px){
+  html{
+      font-size: 60%;
+  }
+  .navigation_section {
+    margin-left: -10px !important;
+  }
+  .Small_topic_sides {
+    font-size: 12px;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  .sub_topic_sides {
+    font-size: 20px;
+
+  }
+  .middle_button_Creator_main {
+    height: 40px;
+    width: 120px;
+    font-size: 13px;
+  }
+  .grit_card_section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: none;
+  }
+  .card_section {
+    height: 300px;
+    width: 80vw;
+    font-size: 14px;
+  }
+  .card_section .p1{
+    width: 75vw;
+
+  }
+  
+
+}
+
+
